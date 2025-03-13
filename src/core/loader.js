@@ -7,7 +7,7 @@ const updateSlashCommands = async (commands) => {
   await rest.put(
     Routes.applicationGuildCommands(
       process.env.APPLICATION_ID,
-      '421691956746256397',
+      '995286200699064372',
     ),
     {
       body: commands,
